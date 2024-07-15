@@ -49,8 +49,8 @@ const Header = () => {
         </div>
       </div>
       {isOpen && (
-        <nav className="md:hidden bg-bumbleGreen">
-          <ul className="flex flex-col items-center text-xl space-y-4 py-4">
+        <nav className="md:hidden bg-white">
+          <ul className="flex flex-col items-end text-xl space-y-4 py-4 px-4 text-bumbleGreen">
             <li>
               <Link to="services" smooth={true} duration={500} className="cursor-pointer hover:text-bumbleYellow" onClick={toggleDropdown}>
                 Services

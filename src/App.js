@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -7,6 +6,7 @@ import Footer from './components/Footer';
 import Reviews from './components/Reviews';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Gallery from './components/Gallery';
 
 const App = () => {
   return (
@@ -14,10 +14,12 @@ const App = () => {
       <Header />
       <main>
         <Hero />
+        <div className="md:hidden">
+          <Gallery />
+        </div>
         <Services />
         <About />
         <Reviews />
-      
         <Contact />
       </main>
       <Footer />

@@ -53,27 +53,27 @@ const Hero = () => {
   return (
     <section className="relative h-[90vh] bg-white text-white flex items-start">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center h-[90vh]">
-        <img src={bumbleIcon} className="absolute bottom-0 left-0 h-24 md:h-48\" />
+        <img src={bumbleIcon} className="absolute bottom-0 left-0 h-24 md:h-48" />
         <div className="w-full md:w-1/2 p-4 md:p-8">
-          <p className="font-ribeye text-bumbleGreen text-lg md:text-xl mt-12 md:mt-24 mb-6 md:mb-12">Serving the Boise Area</p>
-          <h1 className="text-4xl md:text-7xl text-bumbleGreen font-bold mb-4 md:mb-8">FROM WEEDS TO WONDERS</h1>
-          <h2 className="text-xl md:text-2xl text-bumbleGreen font-semibold mb-4 md:mb-8">Exceptional Garden Care & Design</h2>
-          <p className="text-base md:text-lg text-bumbleGreen mb-8 md:mb-16">
+          <p className="font-ribeye text-bumbleGreen text-xl md:text-lg md:text-xl mt-12 md:mt-24 mb-6 md:mb-12">Serving the Boise Area</p>
+          <h1 className="text-5xl md:text-7xl text-bumbleGreen font-bold mb-4 md:mb-8">FROM WEEDS TO WONDERS</h1>
+          <h2 className="text-2xl md:text-2xl text-bumbleGreen font-semibold mb-8 md:mb-8">Exceptional Garden Care & Design</h2>
+          <p className="text-xl md:text-lg leading-8 text-bumbleGreen mb-8 md:mb-16">
             We offer comprehensive flower bed care, expert weeding, precise planting, and bespoke garden design services
             to enhance the beauty of your outdoor space.
           </p>
           <Link to="contact" smooth={true} duration={500} className="cursor-pointer">
-            <button className="bg-bumbleYellow font-ribeye text-bumbleBlack hover:bg-bumbleGreen hover:text-white font-bold px-6 md:px-8 py-2 md:py-3 rounded">
+            <button className="bg-bumbleYellow font-ribeye text-xl text-bumbleBlack mb-12 hover:bg-bumbleGreen hover:text-white font-bold px-6 md:px-8 py-2 md:py-3 rounded">
               CONTACT
             </button>
           </Link>
-          <div className="flex flex-col items-center mt-12 md:mt-24 relative">
+          <div className="flex flex-col items-center mt-12 md:mt-12 relative">
             <img src={starsIcon} alt="Stars" className="mb-2" />
             <p className="font-ribeye text-bumbleGreen uppercase text-sm md:text-lg mb-2">Five Star Rating</p>
             <img src={underlineIcon} alt="Underline" className="absolute bottom-[-10px]" />
           </div>
         </div>
-        <div className="w-full md:w-[680px] absolute top-0 right-0 h-[60vh] md:h-[90vh]">
+        <div className="w-full md:w-[680px] absolute top-0 right-0 h-[60vh] md:h-[90vh] hidden md:block">
           <Slider {...settings}>
             <div className="h-[60vh] md:h-[90vh]">
               <img src={slide1} alt="Slide 1" className="w-full h-full object-cover" />
