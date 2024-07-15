@@ -5,7 +5,7 @@ import logo from '../assets/icons/Bumblebloomlogo.png'; // Adjust this path to y
 const Footer = () => {
   return (
     <footer className="bg-bumbleGreen text-white py-4">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <div className="w-full md:max-w-7xl mx-auto flex justify-between items-center">
       <div className="flex items-center">
           <img src={logo} alt="Bumble & Bloom Logo" className="h-8 md:h-12  mr-3" />
         </div>
