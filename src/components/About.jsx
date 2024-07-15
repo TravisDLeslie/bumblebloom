@@ -5,7 +5,7 @@ import icon from '../assets/icons/leafplant.svg';
 const About = () => {
   return (
     <section id="about" className="bg-bumbleGreen py-24 relative">
-      <div className="max-w-7xl mx-auto px-4 mt-12 mb-24 text-center sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 mt-12 mb-24 text-center sm:px-8 lg:px-8">
         <h2 className="text-6xl font-bold font-ribeye text-white mb-20">About</h2>
         <div className="flex flex-col md:flex-row items-start text-left relative">
           <div className="flex-shrink-0 mb-8 md:mb-0 md:mr-8 relative">
