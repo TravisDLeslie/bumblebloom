@@ -1,0 +1,24 @@
+.slick-dots li button:before {
+    color: white;
+    opacity: 1;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: white;
+    opacity: 1;
+    background-image: url('../icons/activeIcon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .custom-dot {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .slick-next, .slick-prev {
+    color: white;
+  }
