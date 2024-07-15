@@ -1,4 +1,3 @@
-// src/components/Services.jsx
 import React from 'react';
 import ServiceCard from './ServiceCard';
 import flowerBedIcon from '../assets/icons/flowerbedcare.svg';
@@ -6,7 +5,7 @@ import plantingIcon from '../assets/icons/planting.svg';
 import weedingIcon from '../assets/icons/weeding.svg';
 import designIcon from '../assets/icons/design.svg';
 import monthlyMaintenanceIcon from '../assets/icons/monthlymaintenance.svg';
-import leaf from "../assets/icons/leaf.svg";
+import leaf from '../assets/icons/leaf.svg';
 
 import flowerBedImage from '../assets/images/planting.jpg'; // Replace with your images
 import plantingImage from '../assets/images/planting.jpg';
@@ -123,9 +122,9 @@ const Services = () => {
   return (
     <section id="services" className="bg-white mt-24 py-24 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-6xl font-bold font-ribeye text-bumbleGreen mb-24">Services</h2>
-        <img src={leaf} className="absolute top-[50px] right-[20px] md:top-[50px] md:right-[300px] w-36 h-36" alt="Leaf" />
-        <div className="grid grid-cols-1 gap-20">
+        <h2 className="text-3xl md:text-6xl font-bold font-ribeye text-bumbleGreen mb-12 md:mb-24">Services</h2>
+        <img src={leaf} className="absolute top-[20px] right-[20px] md:top-[50px] md:right-[300px] w-24 h-24 md:w-36 md:h-36" alt="Leaf" />
+        <div className="grid grid-cols-1 gap-12 md:gap-20">
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}
