@@ -1,4 +1,3 @@
-// src/components/About.jsx
 import React from 'react';
 import aboutImage from '../assets/images/planting.jpg'; // Replace with the actual image path
 import icon from '../assets/icons/leafplant.svg';
@@ -11,10 +10,14 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-start text-left relative">
           <div className="flex-shrink-0 mb-8 md:mb-0 md:mr-8 relative">
             <img src={icon} alt="About Us" className="absolute top-[-50px] left-[0px] md:top-[-50px] md:left-[-50px] w-24 h-24 p-6 bg-bumbleYellow border rounded-2xl" />
-            <img src={aboutImage} alt="About Us" className="w-[500px] h-[500px] object-cover rounded-2xl bg-gray-200" />
+            <img src={aboutImage} alt="About Us" className="w-full h-[500px] object-cover rounded-2xl bg-gray-200" />
           </div>
           <div className="text-white ml-8 mt-4 w-full md:w-[600px]">
-            <h3 className="text-2xl font-ribeye font-bold">BRYNNA LESLIE <span className="italic font-poppins text-xl font-normal">- 15+ yrs experience</span></h3>
+            <h3 className="text-2xl font-ribeye font-bold">
+              BRYNNA LESLIE
+              <br className="md:hidden" />
+              <span className="italic font-poppins text-xl font-normal block md:inline">- 15+ yrs experience</span>
+            </h3>
             <p className="mt-4 font-normal text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.
             </p>

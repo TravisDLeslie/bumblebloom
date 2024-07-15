@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-bumbleGreen text-white py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
       <div className="flex items-center">
-          <img src={logo} alt="Bumble & Bloom Logo" className="h-12 mr-3" />
+          <img src={logo} alt="Bumble & Bloom Logo" className="h-8 w-8 md:h-12 md:w-12 mr-3" />
         </div>
         <div className="text-white text-base">
           All rights reserved © 2024 Bumble & Bloom
@@ -18,3 +18,4 @@ const Footer = () => {
 };
 
 export default Footer;
+  
