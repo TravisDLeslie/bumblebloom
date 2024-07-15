@@ -12,29 +12,29 @@ const Header = () => {
 
   return (
     <header className="bg-bumbleGreen text-white py-4">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
         <div className="flex items-center">
-          <img src={logo} alt="Bumble & Bloom Logo" className="h-12 mr-3" />
+          <img src={logo} alt="Bumble & Bloom Logo" className="h-8 sm:h-10 md:h-12 mr-3" />
         </div>
         <nav className="hidden md:block ml-auto">
           <ul className="flex text-xl space-x-8">
             <li>
-              <Link to="services" smooth={true} duration={500} className="cursor-pointer hover:text-bumbleYellow">
+              <Link to="services" smooth={true} duration={500} className="cursor-pointer font-light hover:text-bumbleYellow">
                 Services
               </Link>
             </li>
             <li>
-              <Link to="reviews" smooth={true} duration={500} className="cursor-pointer hover:text-bumbleYellow">
+              <Link to="reviews" smooth={true} duration={500} className="cursor-pointer font-light hover:text-bumbleYellow">
                 Reviews
               </Link>
             </li>
             <li>
-              <Link to="about" smooth={true} duration={500} className="cursor-pointer hover:text-bumbleYellow">
+              <Link to="about" smooth={true} duration={500} className="cursor-pointer font-light hover:text-bumbleYellow">
                 About
               </Link>
             </li>
             <li>
-              <Link to="contact" smooth={true} duration={500} className="cursor-pointer hover:text-bumbleYellow">
+              <Link to="contact" smooth={true} duration={500} className="cursor-pointer font-light hover:text-bumbleYellow">
                 Contact
               </Link>
             </li>
