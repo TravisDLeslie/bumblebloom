@@ -51,7 +51,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative h-[90vh] bg-white text-white flex items-start">
+    <section className="relative h-[90vh] bg-white text-white flex mb-24 items-start">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center h-[90vh]">
         <img src={bumbleIcon} className="absolute bottom-0 left-0 h-24 md:h-48" />
         <div className="w-full md:w-1/2 p-4 md:p-8">
