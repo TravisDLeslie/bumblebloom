@@ -24,7 +24,7 @@ const ServiceCard = ({ icon, title, price, description, additionalInfo, isMonthl
       <div className="flex-shrink-0 mt-4 md:mt-0">
         <img src={image} alt={`${title}`} className="w-full md:w-[460px] h-full object-cover rounded-md" />
       </div>
-      <img src={happyBeeIcon} alt="Happy Bee" className="absolute hidden group-hover:block right-0 top-0 w-24 h-24 md:w-36 md:h-36" />
+      <img src={happyBeeIcon} alt="Happy Bee" className="absolute hidden group-hover:block top-0 right-[16px]  md:right-0 md:top-0 w-24 h-24 md:w-36 md:h-36" />
     </div>
   );
 };
